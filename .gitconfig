@@ -1,0 +1,9 @@
+[user]
+	email = MY_EMAIL
+	name = MY_USERNAME
+[alias]
+	s = !git status -s 
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(yellow)%h%C(blue)%d %C(white)%s - %C(cyan)%cn, %C(green)%ar%C(reset)' --graph
+[core]
+	editor = code
